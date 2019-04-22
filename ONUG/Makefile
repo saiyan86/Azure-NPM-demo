@@ -17,3 +17,7 @@ build-firewall:
 push:
 	docker push $(USER)/$(ERREPO):$(ERTAG)
 	docker push $(USER)/$(FWREPO):$(FWTAG)
+
+pull:
+	docker pull $(USER)/$(ERREPO):$(ERTAG)
+	docker pull $(USER)/$(FWREPO):$(FWTAG)
