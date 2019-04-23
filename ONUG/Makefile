@@ -1,9 +1,9 @@
 USER=yonglichenms
 ERDIR=expressroute
-ERREPO=azure-npm-demo-expressroute
+ERREPO=er-content-demo
 ERTAG=onug
 FWDIR=firewall
-FWREPO=azure-npm-demo-firewall
+FWREPO=firewall-content-demo
 FWTAG=onug
 
 build: build-expressroute build-firewall
