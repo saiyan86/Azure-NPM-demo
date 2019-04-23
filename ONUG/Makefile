@@ -1,4 +1,4 @@
-USER=yonglichenms
+USER=azurecontnw
 ERDIR=expressroute
 ERREPO=er-content-demo
 ERTAG=onug
