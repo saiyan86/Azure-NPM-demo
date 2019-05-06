@@ -12,7 +12,7 @@ kubectl label ns/expressroute purpose=expressroute
 ## Create nginx web server deployments in each namespace
 ```
 kubectl run firewall --image=azurecontnw/firewall:onug -n firewall --replicas=3 --labels=app=firewall-content --expose --port 80
-kubectl run expressroute --image=azurecontnw/expressroute:onug -n --replicas=3 --labels=app=expressroute-content --expose --port 80
+kubectl run expressroute --image=azurecontnw/expressroute:onug -n expressroute --replicas=3 --labels=app=expressroute-content --expose --port 80
 ```
 
 ## Apply network policy
